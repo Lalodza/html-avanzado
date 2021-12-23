@@ -1,0 +1,17 @@
+body {
+    background-color: rosybrown;
+}
+
+table, tr, th, td{
+    border: 1px solid rgb(27, 121, 116);
+    border-radius: 10px;
+}
+
+th {
+    background-color: orange;
+}
+
+td {
+    background-color: darkolivegreen;
+}
+

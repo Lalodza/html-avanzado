@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assents/css/tablas.css">
+    <title>Tablas</title>
+</head>
+<body>
+    <h1>TABLAS</h1>
+    <!-- colspan & rowspan -->
+    <!-- colspan: se extiende por columnas -->
+    <!-- rowspan: se extiende por filas -->
+    <table>
+        <!-- CABECERA DE TABLA -->
+        <thead>
+            <tr> <!-- crea una fila (TR) -->
+                <th>Cabecera 1</th>
+                <th colspan="2">Cabecera 2</th>
+            </tr>
+        </thead>
+        <!-- CUERPO DE TABLA -->
+        <tbody>
+            <tr>
+                <td>A</td>
+                <td>B</td>
+                <td rowspan="3">C</td>
+            </tr>
+            <tr>
+                <td>Hola</td>
+                <td>Adios</td>
+            </tr>
+            <tr>
+                <td>Holaaaaaa</td>
+                <td>Adiooooos</td>
+            </tr>
+        </tbody>
+        <!-- PIE DE TABLA -->
+        <tfoot>
+            <td>Pie de tabla 1</td>
+            <td>Pie de tabla 2</td>
+            <td>Pie de tabla 3</td>
+        </tfoot>
+    </table>
+</body>
+</html>

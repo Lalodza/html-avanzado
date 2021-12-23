@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(127, 255, 212);
+}
+
+table, tr, th, td{
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.num {
+    color: yellow;
+}
+
+.rojo {
+    color: red;
+}
+
+.naranja {
+    background-color: orangered;
+}
+
+.negro {
+    background-color: black;
+}
+
+tfoot {
+    background-color: chartreuse;
+}

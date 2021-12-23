@@ -1,0 +1,13 @@
+.formulario {
+    border: 1px solid red;
+}
+
+.clase_nombre {
+    background-color: rgb(134, 93, 18);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+#password {
+    border: 2px dashed red;
+}

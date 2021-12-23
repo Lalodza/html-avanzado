@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assents/css/ejercicio-01.css">
+    <title>Formlario - ejercicio 01</title>
+</head>
+<body>
+    <form>
+        <div class="comprador">
+        <fieldset>
+            <legend>Datos del comprador</legend>
+            <br>
+            <div>
+            <label for="Nombre">Nombre</label>
+            <input id="nombre" type="text" name="nombre" placeholder="Escribe tu nombre completo">
+            </div>
+            <div>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" placeholder="ejemplo@um.es">
+            </div>
+            <div>
+                <label for="tel">Telefono</label>
+                <input id="numero" type="number" name="text" placeholder="Ej. +5553529042">
+            </div>
+            <div>
+                <label for="pais">Pais</label>
+                <input id="pais" type="text" name="pais">
+            </div>
+        </fieldset>
+        </div>
+        <br>
+        <div class="datos-tarjeta">
+            <fieldset>
+                <legend>Datos de tarjeta de credito o debito</legend>
+                <br>
+                <div>
+                    <label for="numero-tar">Numero</label>
+                    <input id="numero-tar" type="number" name="numero-tar" placeholder="Ej. 555-444-333-222">
+                </div>
+                <div>
+                    <label for="tarjeta">Nombre</label>
+                    <input id="tarjeta" type="text" name="tarjeta" placeholder="Nombre que figura en la tarjeta">
+                </div>
+            </fieldset>
+        </div>
+        <div>
+            <p>--------------------------------------</p>
+        </div>
+        <div>
+            <button>Confirmar pedido</button>
+        </div>
+    </form>
+</body>
+</html>
